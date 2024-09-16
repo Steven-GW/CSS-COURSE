@@ -1,9 +1,17 @@
-* {
-    font-family: monospace;
+html {
+    font-size: 22px;
 }
 
 body {
-    font-size: 22px;
+   
+}
+
+main {
+    font-family: monospace;
+}
+
+button, input, textarea, select {
+    font: inherit;
 }
 
 h1, h2 {
@@ -11,7 +19,11 @@ h1, h2 {
 }
 
 p {
-    color: purple;
+    color: purple!important;
+}
+
+p {
+    color: red;
 }
 
 .highlight {
